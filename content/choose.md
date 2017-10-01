@@ -30,6 +30,7 @@ Choose your favorite programming language to get started with GraphQL on the ser
 - **Python** [Get Started](https://www.howtographql.com/graphql-python/0-introduction/): Learn how to build a GraphQL server in Python with this tutorial based on the [Graphene](https://github.com/graphql-python/graphene) library.
 - **Scala** (_Coming Soon_): Learn how to build a GraphQL server in Scala with this tutorial based on the [Sangria](https://github.com/sangria-graphql/sangria) library.
 - **Graphcool**: [Graphcool](https://www.graph.cool/docs/tutorials/graphcool-features-overview-ped6wohw0o/) is a powerful developer platform that combines GraphQL and Serverless technologies to provide you with the best tools to build the backend for your next app. Learn how to leverage the features of Graphcool to build a production-ready GraphQL server.
+- **Go**: Learn how to build a GraphQL server in Go with this tutorial based on the [graphql-go](https://github.com/neelance/graphql-go) library.
 
 ### Contribute a Tutorial
 

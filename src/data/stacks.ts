@@ -185,6 +185,21 @@ const data: Stack[] = [
     color2: '#db594c',
   },
   {
+    title: 'graphql-go',
+    type: 'backend',
+    key: 'graphql-go',
+    images: [
+        require('../assets/icons/gogopher.svg'),
+        require('../assets/icons/graphql.svg'),
+    ],
+    content: {
+        title: 'graphql-go',
+        description:
+            'Build your own GraphQL server with the Go programming language',
+    },
+    authorName: 'Kevin Marquardsen',
+  },
+  {
     title: 'Sangria',
     type: 'backend',
     key: 'sangria',

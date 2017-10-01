@@ -94,6 +94,13 @@ const authors: Author[] = [
     link: 'https://twitter.com/devanbeitel_',
     job: 'Engineer @ Envy Labs',
     name: 'Devan Beitel'
+  },
+  {
+    avatar: require('../assets/graphics/contributors/kevin.jpg'),
+    bio: "Kevin is a full-stack engineer who enjoys learning new technologies and better ways to build software. His current frontier is serverless architectures. @kmarquardsen on Medium.",
+    link: 'https://github.com/kmarquardsen',
+    job: 'Senior Engineer @ Intuit',
+    name: 'Kevin Marquardsen'
   }
 ]
 
