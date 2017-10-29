@@ -97,7 +97,7 @@ const authors: Author[] = [
   },
   {
     avatar: require('../assets/graphics/contributors/kevin.jpg'),
-    bio: "Kevin is a full-stack engineer who enjoys learning new technologies and better ways to build software. His current frontier is serverless architectures. @kmarquardsen on Medium.",
+    bio: "Kevin is a full-stack engineer who enjoys learning new technologies and better ways to build software. @kmarquardsen on Medium.",
     link: 'https://github.com/kmarquardsen',
     job: 'Senior Engineer @ Intuit',
     name: 'Kevin Marquardsen'

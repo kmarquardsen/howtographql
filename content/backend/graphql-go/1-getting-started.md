@@ -30,6 +30,7 @@ import (
 
 	"github.com/neelance/graphql-go"
 	"github.com/neelance/graphql-go/relay"
+	"github.com/howtographql/graphql-go/resolvers"
 	"io/ioutil"
 	"fmt"
 )
@@ -42,11 +43,11 @@ func init() {
 		panic(err)
 	}
 
-	schema = graphql.MustParseSchema(string(schemaFile), &Resolver{})
+	schema = graphql.MustParseSchema(string(schemaFile), &resolvers.Resolver{})
 }
 
 func main() {
-	http.Handle("/graphql", &relay.Handler{Schema: schema})
+	http.Handle("/query", &relay.Handler{Schema: schema})
 
 	fmt.Println("server is running on port 8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
